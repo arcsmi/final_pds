@@ -27,4 +27,6 @@ To run this patch you will need [plugdata](https://plugdata.org/download.html) a
 
 You will also need [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) so your DAW can communicate with plugdata and detect incoming MIDI (enable loopMIDI Port in plugdata settings -> MIDI -> MIDI Inputs).
 
-To ensure MIDI data is being sent and recieved, keep loopMIDI running. In your DAW, send pure MIDI to the loopMIDI Port and select a channel e.g. *notein 1* detects input from channel 1. *Note: in Ableton you cannot send MIDI if there is an instrument on your track. To send MIDI from existing tracks you will need to duplicate them and remove the instrument, so you are left with one audio track and one track that sends pure MIDI.*
+To ensure MIDI data is transferred, keep loopMIDI running. In your DAW, send MIDI to the loopMIDI Port and select a channel e.g. *notein 1* detects input from channel 1.
+
+*Note: in Ableton you cannot send MIDI if there is an instrument on your track. To send MIDI from existing tracks you will need to duplicate them and remove the instrument, so you are left with one audio track and one track that sends pure MIDI.*
